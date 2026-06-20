@@ -21,6 +21,7 @@
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#events">Event</a></li>
                 <li><a href="#layanan">Layanan</a></li>
                 <li><a href="#partner">Partner</a></li>
                 <li><a href="#kontak">Kontak</a></li>
@@ -54,10 +55,18 @@
         </div>
     </section>
 
-    <section class="promo-bento container">
+<section class="promo-bento container">
         <div class="bento-box">
             <div class="promo-track" id="promoTrack">
             </div>
+            
+            <!-- TOMBOL NAVIGASI DI SINI -->
+            <button class="promo-nav-btn prev" id="prevPromoBtn" aria-label="Promo Sebelumnya">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="promo-nav-btn next" id="nextPromoBtn" aria-label="Promo Berikutnya">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
             
             <div class="promo-label">
                 <h3><i class="fa-solid fa-tags"></i> Promo Bulan Ini</h3>
@@ -156,6 +165,75 @@
                     <h4>IT Consultation</h4>
                     <p>Rekomendasi infrastruktur teknologi yang efisien & tepat.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- --- Event & Kegiatan Kami (Massive Card Layout) --- -->
+    <section id="events" class="events">
+        <div class="container">
+            <!-- Menambahkan label kecil di atas judul utama sesuai sketsa koreksi -->
+            
+            <h2 class="section-title">Event & Kegiatan Kami</h2>
+            <p class="section-subtitle">Dokumentasi portofolio aktivitas kami</p>
+            
+            <!-- MASSIVE SINGLE EVENT DISPLAY -->
+            <div class="event-massive-card">
+                
+                <!-- Left Side: Large Photo Gallery Slider -->
+                <div class="event-gallery-side">
+                    <div class="event-photo-carousel">
+                        <!-- Event Photo Image -->
+                        <img id="eventPhotoImg" src="" alt="Event Photo">
+                        
+                        <!-- Inner Photo Navigation Buttons -->
+                        <button class="event-photo-btn prev" onclick="prevEventPhoto()" aria-label="Foto Sebelumnya">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="event-photo-btn next" onclick="nextEventPhoto()" aria-label="Foto Berikutnya">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        
+                        <!-- Inner Photo Dot Indicators -->
+                        <div class="event-photo-dots" id="eventPhotoDots"></div>
+                    </div>
+                    <div class="event-photo-info">
+                        <span class="event-counter font-mono">
+                            <i class="fa-solid fa-camera"></i>
+                            Foto Ke- <span id="eventPhotoCounter">1/1</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right Side: Beautiful Structured Text Details -->
+                <div class="event-details-side">
+                    <div class="event-header-meta">
+                        <span class="event-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span id="eventDate">Tanggal Event</span>
+                        </span>
+                    </div>
+                    
+                    <!-- Headline -->
+                    <h3 id="eventTitle" class="event-headline">Event Title</h3>
+                    
+                    <!-- Description -->
+                    <p id="eventDesc" class="event-description">Deskripsi kegiatan lengkap...</p>
+                    
+                    <!-- Bottom Switcher Control Layout -->
+                    <div class="event-nav">
+                        <button class="event-nav-btn prev" onclick="prevEvent()">
+                            <i class="fa-solid fa-chevron-left"></i> Event Sebelumnya
+                        </button>
+                        <div class="event-progress font-mono">
+                            <span id="eventCounter">1/4</span>
+                        </div>
+                        <button class="event-nav-btn next" onclick="nextEvent()">
+                            Event Berikutnya <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

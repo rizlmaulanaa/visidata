@@ -96,6 +96,52 @@ const HERO_DATA = [
 
 Edit atau tambahkan teks sesuai kebutuhan.
 
+
+# Cara Update Event (Tambah Event Baru): 
+Sistem event menggunakan data dinamis yang otomatis merender judul, tanggal, deskripsi, slider foto utama, dot indikator, serta preview kartu previous/next di sekitarnya.
+
+Untuk menambahkan event baru, buka file script.js dan cari array **EVENTS**. Tambahkan objek event baru di bagian paling bawah dengan mengikuti format struktur berikut:
+
+```JavaScript
+// Struktur Format Data Event:
+{
+    title: ***NAMA** **EVENT** / **JUDUL***,
+    date: ***TANGGAL** **ACARA***,
+    description: ***DESKRIPSI** **LENGKAP** **MENGENAI** **JALANNYA** **ACARA***,
+    photos: [
+    *images/events/foto1.jpg*,
+    *images/events/foto2.jpg* // Bisa memasukkan banyak foto sekaligus untuk galeri internal event ini
+    ]
+}
+```
+
+Contoh Penerapan Tambah Event Baru:
+
+```JavaScript
+const **EVENTS** = [
+    {
+    title: *Lenovo Exclusive Launch **2024***,
+    date: *25 Juni **2024***,
+    description: "PT Visidata Inti Teknologi menyelenggarakan peluncuran lini laptop premium Lenovo Yoga...*,
+    photos: [
+    *[https://images.unsplash.com/photo-**1540575467063**-178a50c2df87?q=80&w=**1200**](https://images.unsplash.com/photo-**1540575467063**-178a50c2df87?q=80&w=**1200**)*,
+    *[https://images.unsplash.com/photo-**1505373877841**-8d25f7d46678?q=80&w=**1200**](https://images.unsplash.com/photo-**1505373877841**-8d25f7d46678?q=80&w=**1200**)"
+    ]
+    },
+    // ... data event lama lainnya ...
+    {
+    title: *Grand Opening Showroom Baru*, // Judul event baru kamu
+    date: *12 Januari **2026***,
+    description: "Merayakan pembukaan cabang showroom terbaru Visidata dengan menghadirkan jajaran produk hardware high-performance terlengkap dan promo flash sale aksesoris IT.*,
+    photos: [
+    *images/events/go-showroom1.jpg", // Menggunakan file lokal dari folder images/events/
+    *images/events/go-showroom2.jpg*
+    ]
+    }
+];
+```
+Catatan: Sistem secara otomatis mendeteksi total jumlah event dan menghitung jumlah navigasi angka halaman (1/4, 2/4, dst.) tanpa perlu mengubah file **HTML**.
+
 ## Tips:
 - Gunakan gambar berkualitas tinggi untuk hasil terbaik
 - Kompres gambar sebelum upload untuk loading lebih cepat

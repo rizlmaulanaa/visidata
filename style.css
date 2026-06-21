@@ -769,24 +769,47 @@ header.scrolled .btn-link { color: var(--primary); }
 .btn-wa-large { background: #fff; color: var(--red); padding: 20px 40px; border-radius: 50px; font-weight: 800; display: inline-block; margin-top: 30px; font-size: 1.1rem; }
 
 /* --- 11. Footer --- */
-footer { background: #fff; padding: 100px 0 40px; border-top: 1px solid #eee; }
+.main-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lapisan Atas: Putih Bersih */
+.footer-top-white {
+    background: #ffffff;
+    padding: 80px 0;
+    border-top: 1px solid #eee;
+}
+
 .footer-grid { 
     display: grid; 
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr; 
     gap: 40px; 
-    margin-bottom: 60px; 
-}
-
-.footer-logo {
-    margin-bottom: 20px;
+    align-items: flex-start;
 }
 
 .footer-logo img {
     height: 45px;
 }
 
-footer h4 { margin-bottom: 25px; color: var(--primary); }
-footer p { color: #64748b; margin-bottom: 12px; line-height: 1.8; }
+.main-footer h4 { 
+    margin-bottom: 25px; 
+    color: var(--primary); 
+    font-weight: 700;
+}
+
+.main-footer p { 
+    color: #64748b; 
+    margin-bottom: 12px; 
+    line-height: 1.8; 
+    font-size: 0.95rem;
+}
+
+.main-footer i {
+    color: var(--red);
+    margin-right: 8px;
+}
 
 .f-about p {
     margin-top: 15px;
@@ -795,15 +818,46 @@ footer p { color: #64748b; margin-bottom: 12px; line-height: 1.8; }
 .f-map { 
     border-radius: 15px; 
     overflow: hidden; 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06); 
 }
 
-.copy { 
-    border-top: 1px solid #eee; 
-    padding-top: 40px; 
-    color: #94a3b8; 
+/* Lapisan Bawah: Bar Gelap Premium */
+.footer-bottom-dark {
+    background: #0f172a; /* Abu-abu kehitaman premium */
+    padding: 25px 0;
+}
+
+.footer-bottom-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text {
+    color: #94a3b8 !important;
     font-size: 0.9rem;
-    text-align: center; /* DIPINDAH KE TENGAH */
+    margin: 0 !important;
+}
+
+/* Navigasi Kanan (Sosmed & Teks) */
+.footer-bottom-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-bottom-links a {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.footer-bottom-links a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom-links i {
+    font-size: 1.1rem;
+    color: #94a3b8;
 }
 
 /* --- Responsivitas: Biar tetep cakep di HP --- */

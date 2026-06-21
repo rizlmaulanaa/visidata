@@ -32,45 +32,43 @@ const PROMO_IMAGES = [
 // 3. Event & Kegiatan (Carousel dengan Photo Gallery)
 // Path format: /images/events/namaevent/foto1.jpg
 // Bisa tambah event baru atau foto baru dengan mudah
+// event terbaru dibuat paling atas.
 const EVENTS = [
+
     {
-        title: "Lenovo Exclusive Launch 2024",
-        date: "25 Juni 2024",
-        description: "PT Visidata Inti Teknologi menyelenggarakan peluncuran lini laptop premium Lenovo Yoga dan Legion terbaru di Kalimantan. Acara ini memperkenalkan teknologi cerdas bertenaga AI terbaru langsung kepada para penggemar teknologi, pebisnis, serta instansi regional.",
+        title: "Time To level Up with ASUS Business & Windows 11 Pro",
+        date: "21 Mei 2026",
+        description: "PT Visidata Inti Teknologi bangga menjadi sponsor utama dalam 'Time To Level Up ASUS Business', sebuah kolaborasi strategis bersama PT Synnex Metrodata Indonesia, ASUS Business, dan Microsoft Windows 11 Pro. Acara eksklusif ini mengundang seluruh rekanan bisnis Visidata untuk mengeksplorasi keunggulan komputasi bisnis modern dan efisiensi sistem kerja masa depan.",
         photos: [
-            "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1200",
-            "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=1200",
-            "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200"
+            "images/events/asusvisidata/photo1.jpeg",
+            "images/events/asusvisidata/photo2.jpeg",
+            "images/events/asusvisidata/photo3.jpeg"
         ]
     },
+
     {
-        title: "Corporate IT Solutions Expo",
-        date: "10 Agustus 2024",
-        description: "Pameran solusi infrastruktur teknologi informasi komprehensif bagi segmen korporasi skala besar dan lembaga pemerintah di Kalimantan Timur. Menyajikan konsep server tangguh, sistem manajemen data modern, serta perlindungan cyber security mutakhir.",
+        title: "Lenovo Accelerate 2025",
+        date: "19 November 2025",
+        description: "PT Visidata Inti Teknologi menghadiri Lenovo Accelerate 2025, ajang tahunan bergengsi bagi mitra resmi Lenovo Indonesia. Acara ini menghadirkan pameran inovasi teknologi mutakhir Lenovo, sesi strategis bersama pemateri ahli dari Lenovo Asia Pasifik dan Microsoft, serta pemaparan prediksi pasar teknologi global oleh Chief Economist BCA.",
         photos: [
-            "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1200",
-            "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200"
+            "images/events/lenovoacc/acc1.jpeg",
+            "images/events/lenovoacc/acc2.jpeg",
+            "images/events/lenovoacc/acc4.jpeg",
+            "images/events/lenovoacc/acc5.jpeg",
+            "images/events/lenovoacc/acc6.jpeg"
         ]
     },
+
     {
-        title: "Workshop Maintenance & Support",
-        date: "15 September 2024",
-        description: "Sesi edukasi praktis intensif bersama tim IT perwakilan dari berbagai instansi penting. Berfokus pada optimalisasi perangkat computer hardware, perakitan modular hardware, penanganan darurat crash data, dan pemeliharaan server secara berkala.",
+        title: "Live Streaming rutin Setiap Hari",
+        date: "Setiap Hari",
+        description: "Visidata Aktif melakukan live streaming di platform Toko online kami yaitu Tiktokshop dan Shopee. Untuk menargetkan jangkauan pelanggan di seluruh Indonesia.",
         photos: [
-            "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200",
-            "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200",
-            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200"
-        ]
-    },
-    {
-        title: "Customer Appreciation Day",
-        date: "5 Oktober 2024",
-        description: "Apresiasi spesial bagi pelanggan dan instansi mitra strategis PT Visidata Inti Teknologi. Event ini menghadirkan penawaran diskon eksklusif laptop, konsultasi teknologi gratis, serta sharing session interaktif ramah tamah bersama pakar teknologi.",
-        photos: [
-            "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200",
-            "https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200"
+            "images/events/live/live1.jpeg"
+
         ]
     }
+  
 ];
 
 

@@ -52,7 +52,7 @@ const EVENTS = [
         description: "PT Visidata Inti Teknologi menghadiri Lenovo Accelerate 2025, ajang tahunan bergengsi bagi mitra resmi Lenovo Indonesia. Acara ini menghadirkan pameran inovasi teknologi mutakhir Lenovo, sesi strategis bersama pemateri ahli dari Lenovo Asia Pasifik dan Microsoft, serta pemaparan prediksi pasar teknologi global oleh Chief Economist BCA.",
         photos: [
             "images/events/lenovoacc/acc1.jpeg",
-            "images/events/lenovoacc/acc2.jpeg",
+            // "images/events/lenovoacc/acc2.jpeg",
             "images/events/lenovoacc/acc4.jpeg",
             "images/events/lenovoacc/acc5.jpeg",
             "images/events/lenovoacc/acc6.jpeg"

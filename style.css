@@ -195,6 +195,7 @@ header.scrolled .btn-link { color: var(--primary); }
 .tokopedia-lenovo { background:  white; }
 .shopee { background: white; padding: 50px;}
 .blibli { background: white; padding: 50px;}
+.toco { background: white; padding: 50px;}
 
 .m-btn:hover { 
     transform: translateY(-5px); 

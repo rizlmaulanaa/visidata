@@ -75,42 +75,42 @@ const EVENTS = [
 // 4. Google Reviews / Testimonial
 // Isi dengan review dari Google Maps Anda
 const TESTIMONIALS = [
-    {
-        name: "Budi Santoso",
-        rating: 5,
-        text: "Pelayanan sangat memuaskan! Produk original dan harga bersaing. Rekomendasi banget buat yang cari laptop Lenovo di Balikpapan.",
-        date: "2 minggu yang lalu"
-    },
-    {
-        name: "Siti Nurhaliza",
-        rating: 5,
-        text: "Staff ramah dan profesional. Membantu saya memilih laptop yang sesuai kebutuhan kantor. Terima kasih Visidata!",
-        date: "1 bulan yang lalu"
-    },
-    {
-        name: "Ahmad Rizki",
-        rating: 5,
-        text: "Toko IT terpercaya di Balikpapan. Garansi resmi dan after sales yang responsif. Sangat puas!",
-        date: "3 minggu yang lalu"
-    },
-    {
-        name: "Dewi Lestari",
-        rating: 5,
-        text: "Tempatnya nyaman, produknya lengkap. Untuk perusahaan juga bisa nego harga korporat. Recommended!",
-        date: "1 bulan yang lalu"
-    },
-    {
-        name: "Eko Prasetyo",
-        rating: 5,
-        text: "Beli laptop untuk kantor disini, pelayanan cepat dan profesional. Harga kompetitif untuk pembelian dalam jumlah banyak.",
-        date: "2 bulan yang lalu"
-    },
-    {
-        name: "Linda Wijaya",
-        rating: 5,
-        text: "Sudah langganan di Visidata bertahun-tahun. Kualitas produk terjamin dan service center yang memadai.",
-        date: "1 bulan yang lalu"
-    }
+    // {
+    //     name: "Budi Santoso",
+    //     rating: 5,
+    //     text: "Pelayanan sangat memuaskan! Produk original dan harga bersaing. Rekomendasi banget buat yang cari laptop Lenovo di Balikpapan.",
+    //     date: "2 minggu yang lalu"
+    // },
+    // {
+    //     name: "Siti Nurhaliza",
+    //     rating: 5,
+    //     text: "Staff ramah dan profesional. Membantu saya memilih laptop yang sesuai kebutuhan kantor. Terima kasih Visidata!",
+    //     date: "1 bulan yang lalu"
+    // },
+    // {
+    //     name: "Ahmad Rizki",
+    //     rating: 5,
+    //     text: "Toko IT terpercaya di Balikpapan. Garansi resmi dan after sales yang responsif. Sangat puas!",
+    //     date: "3 minggu yang lalu"
+    // },
+    // {
+    //     name: "Dewi Lestari",
+    //     rating: 5,
+    //     text: "Tempatnya nyaman, produknya lengkap. Untuk perusahaan juga bisa nego harga korporat. Recommended!",
+    //     date: "1 bulan yang lalu"
+    // },
+    // {
+    //     name: "Eko Prasetyo",
+    //     rating: 5,
+    //     text: "Beli laptop untuk kantor disini, pelayanan cepat dan profesional. Harga kompetitif untuk pembelian dalam jumlah banyak.",
+    //     date: "2 bulan yang lalu"
+    // },
+    // {
+    //     name: "Linda Wijaya",
+    //     rating: 5,
+    //     text: "Sudah langganan di Visidata bertahun-tahun. Kualitas produk terjamin dan service center yang memadai.",
+    //     date: "1 bulan yang lalu"
+    // }
 ];
 
 // --- SELEKSI ELEMEN ---

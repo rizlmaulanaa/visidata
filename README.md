@@ -154,3 +154,8 @@ Edit link marketplace di file `index.html`, cari bagian:
 <a href="#" class="m-btn tokopedia-lenovo">
 ```
 Ganti `#` dengan URL toko Anda.
+
+Testimoni google reviews pakai sociablekit 
+```html
+<div class="sk-ww-google-reviews" data-embed-id="25691456"></div><script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer></script>
+```
